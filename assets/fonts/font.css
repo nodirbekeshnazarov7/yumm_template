@@ -1,0 +1,14 @@
+/* Manrope */
+@font-face {
+    font-family: Manrope;
+    src: url("./Manrope/Manrope-Medium.ttf");
+    font-weight: 500;
+}
+
+
+/* Tenor Sans */
+@font-face {
+    font-family: "Tenor Sans";
+    src: url("./TenorSans/TenorSans-Regular.ttf");
+    font-weight: 400;
+}
