@@ -35,7 +35,8 @@ button{
 .section_title{
   color: #FFF;
   font-family: Manrope;
-  font-size: 68px;
+  /* font-size: 68px; */
+  font-size: 54px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -48,7 +49,8 @@ button{
   background-color: #111112;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  padding: 52px 60px;
+  /* padding: 52px 60px; */
+  padding: 40px 60px;
   display: flex;
   justify-content: space-between;
 }
@@ -66,7 +68,8 @@ button{
 .header_menus li a{
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -90,6 +93,9 @@ button{
   top: -177px;
   left: -72px;
 }
+.hero_left img{
+  width: 700px;
+}
 .hero_left .cirle{
   width: 363px;
   height: 363px;
@@ -107,36 +113,40 @@ button{
 .hero_right .title{
   color: #FFF;
   font-family: Manrope;
-  font-size: 86.816px;
+  /* font-size: 86.816px; */
+  font-size: 54px;
   font-style: normal;
   font-weight: 600;
-  line-height: 84.5px; /* 97.332% */
-  letter-spacing: 1.736px;
-  margin-bottom: 48px;
+  /* line-height: 84.5px;  */
+  /* letter-spacing: 1.736px; */
+  /* margin-bottom: 48px; */
+  margin-bottom: 40px;
   margin-left: 9px;
 }
 .hero_right .title .red{
   color: #EB5C68;
   font-family: "Tenor Sans";
-  font-size: 98.307px;
+  /* font-size: 98.307px; */
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -5.898px;
-  margin-right: 33px;
+  /* letter-spacing: -5.898px; */
+  margin-right: 20px;
 }
 .hero_right .title .blue{
   color: #7A00F1;
   font-family: "Tenor Sans";
-  font-size: 98.307px;
+  /* font-size: 98.307px; */
+  font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -5.898px;
-  margin-right: 22px;
+  /* letter-spacing: -5.898px; */
+  margin-right: 16px;
 }
 .hero_right .title .move_left{
-  margin-left: -90.65px;
+  /* margin-left: -64px; */
 }
 .hero_right .text{
   color: #FFF;
@@ -145,7 +155,8 @@ button{
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
+  margin-bottom: 64px;
 }
 .hero_bottom{
   display: flex;
@@ -155,9 +166,11 @@ button{
 .hero_bottom .start_contact{
   border-radius: 31.5px;
   background: #7A00F1;
-  padding: 32px 54px;
+  /* padding: 32px 54px; */
+  padding: 24px 48px;
   color: #FFF;
   font-family: Manrope;
+  /* font-size: 28px; */
   font-size: 28px;
   font-style: normal;
   font-weight: 800;
@@ -175,43 +188,52 @@ button{
 
 /* About us */
 .aboutus{
-  margin-top: 187px;
+  /* margin-top: 187px; */
+  margin-top: 300px;
 }
 .aboutus .section_title{
-  margin-bottom: 85px;
+  /* margin-bottom: 85px; */
+  margin-bottom: 60px;
 }
 .aboutus .cards_wrapper{
   display: flex;
   flex-direction: column;
-  gap: 43px;
+  /* gap: 43px; */
+  gap: 32px;
 }
 .aboutus .cards{
   display: flex;
-  align-items: flex-start;
-  gap: 43px;
+  align-items: stretch;
+  /* gap: 43px; */
+  gap: 32px;
 }
 .aboutus .cards:nth-child(n+2){
-  margin-left: 425px;
+  /* margin-left: 425px; */
+  margin-left: 400px;
 }
 .aboutus .card{
-  width: 553px;
+  /* width: 553px; */
+  width: 500px;
   border-radius: 30px;
   background: #111112;
-  padding: 40px;
+  /* padding: 40px; */
+  padding: 32px;
 }
 .aboutus .card_header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 40px;
 }
 .aboutus .card_header h3{
   color: #FFF;
   font-family: Manrope;
-  font-size: 36px;
+  /* font-size: 36px; */
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  line-height: 122.189%; /* 43.988px */
+  /* line-height: 122.189%;  */
 }
 .aboutus .card_header .icon_box{
   position: relative;
@@ -225,7 +247,8 @@ button{
 .aboutus .card_body p {
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -296,11 +319,12 @@ button{
 
 /* dating */
 .dating{
-  height: 1028px;
+  /* height: 1028px; */
   position: relative;
   background-color: #EB5C68;
   margin-top: 57px;
-  padding: 113px;
+  /* padding: 113px; */
+  padding: 80px;
 }
 .dating_right{
   width: 965px;
@@ -309,7 +333,8 @@ button{
   top: 0;
   right: 0;
   background-color: #DC4450;
-  padding-top: 113px;
+  /* padding-top: 113px; */
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,13 +343,15 @@ button{
   max-width: 595px;
 }
 .dating .section_title{
-  margin-bottom: 92px;
+  /* margin-bottom: 92px; */
+  margin-bottom: 70px;
 }
 .dating .steps{
   display: flex;
   flex-direction: column;
   gap: 34px;
-  margin-bottom: 168px;
+  /* margin-bottom: 168px; */
+  margin-bottom: 150px;
 }
 .dating .step{
   display: flex;
@@ -334,20 +361,22 @@ button{
 .dating .step_counter{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 122.189%; /* 39.1px */
+  /* line-height: 122.189%;  */
   text-transform: uppercase;
   transition: all .3s ease;
 }
 .dating .step_text{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
-  font-size: 36px;
+  /* font-size: 36px; */
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 122.189%; /* 43.988px */
+  /* line-height: 122.189%; */
   text-transform: uppercase;
   transition: all .3s ease;
 }
@@ -370,7 +399,8 @@ button{
   display: inline-block;
   border-radius: 31.5px;
   background: #FFF;
-  padding: 32px 54px;
+  /* padding: 32px 54px; */
+  padding: 24px 48px;
   color: #000;
   font-family: Manrope;
   font-size: 28px;
@@ -379,15 +409,18 @@ button{
   line-height: normal;
 }
 .dating_right .text{
-  margin-top: 67px;
+  /* margin-top: 67px; */
+  margin-top: 50px;
   max-width: 516px;
   color: #FFF;
   text-align: center;
   font-family: Manrope;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 122.858%; /* 49.143px */
+  /* line-height: 122.858%; */
+ 
 }
 
 
@@ -532,7 +565,8 @@ button{
 
 /* questions */
 .questions {
-  padding: 50px 20px;
+  /* padding: 50px 20px; */
+  padding: 40px 20px;
   background: #08080A;
 }
 .questions .accordion{
@@ -546,7 +580,8 @@ button{
   margin-bottom: 20px;
 }
 .questions .section_title {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin-bottom: 60px;
 }
 .questions .accordion_body {
   display: flex;
@@ -570,7 +605,8 @@ button{
   align-items: center;
   color: #FFF;
   font-family: Manrope;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -590,7 +626,8 @@ button{
   transition: height 0.3s ease, padding 0.3s ease;
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -683,7 +720,7 @@ button{
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
-  line-height: 122.189%; /* 78.201px */
+  /* line-height: 122.189%;   */
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -700,7 +737,8 @@ button{
   display: inline-block;
   border-radius: 31.5px;
   background: #EB5C68;
-  padding: 32px 54px;
+  /* padding: 32px 54px; */
+  padding: 24px 48px;
   color: #FFF;
   font-family: Manrope;
   font-size: 28px;
