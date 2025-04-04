@@ -18,7 +18,7 @@ body{
   pointer-events: none; /* Element ustiga bosish ta'sir qilmasligi uchun */
 }
 .container{
-  max-width: 1680px;
+  max-width: 1350px;
   width: 100%;
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ button{
   color: #FFF;
   font-family: Manrope;
   /* font-size: 68px; */
-  font-size: 54px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -86,12 +86,16 @@ button{
   align-items: center;
   justify-content: end;
   position: relative;
-  margin-top: 133px;
+  /* margin-top: 133px; */
+  width: 100%;
+  margin-top: 104px;
 }
 .hero_left{
   position: absolute;
-  top: -177px;
-  left: -72px;
+  /* top: -177px;
+  left: -72px; */
+  top: -140px;
+  left: -50px;
 }
 .hero_left img{
   width: 700px;
@@ -108,26 +112,27 @@ button{
   z-index: 0;
 }
 .hero_right{
-  width: 1000px;
+  /* width: 1000px; */
+  width: 732px;
 }
 .hero_right .title{
   color: #FFF;
   font-family: Manrope;
   /* font-size: 86.816px; */
-  font-size: 54px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 600;
   /* line-height: 84.5px;  */
   /* letter-spacing: 1.736px; */
   /* margin-bottom: 48px; */
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   margin-left: 9px;
 }
 .hero_right .title .red{
   color: #EB5C68;
   font-family: "Tenor Sans";
   /* font-size: 98.307px; */
-  font-size: 60px;
+  font-size: 73px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -156,22 +161,24 @@ button{
   font-weight: 500;
   line-height: normal;
   /* margin-bottom: 130px; */
-  margin-bottom: 64px;
+  margin-bottom: 97px;
 }
 .hero_bottom{
   display: flex;
   align-items: center;
   gap: 53px;
+  gap: 39px;
 }
 .hero_bottom .start_contact{
-  border-radius: 31.5px;
+  /* border-radius: 31.5px; */
+  border-radius: 23.391px;
   background: #7A00F1;
   /* padding: 32px 54px; */
-  padding: 24px 48px;
+  padding: 23.762px 40.099px;
   color: #FFF;
   font-family: Manrope;
   /* font-size: 28px; */
-  font-size: 28px;
+  font-size: 20.792px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -179,7 +186,7 @@ button{
 .hero_bottom .info{
   color: rgba(255, 255, 255, 0.40);
   font-family: Manrope;
-  font-size: 32px;
+  font-size: 23.762px;
   font-style: normal;
   font-weight: 300;
   line-height: 36px; /* 112.5% */
@@ -189,11 +196,11 @@ button{
 /* About us */
 .aboutus{
   /* margin-top: 187px; */
-  margin-top: 300px;
+  margin-top: 250px;
 }
 .aboutus .section_title{
   /* margin-bottom: 85px; */
-  margin-bottom: 60px;
+  margin-bottom: 63px;
 }
 .aboutus .cards_wrapper{
   display: flex;
@@ -209,28 +216,29 @@ button{
 }
 .aboutus .cards:nth-child(n+2){
   /* margin-left: 425px; */
-  margin-left: 400px;
+  margin-left: auto;
 }
 .aboutus .card{
   /* width: 553px; */
-  width: 500px;
+  width: 410px;
   border-radius: 30px;
+  border-radius: 22px;
   background: #111112;
   /* padding: 40px; */
-  padding: 32px;
+  padding: 30px;
 }
 .aboutus .card_header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* margin-bottom: 50px; */
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 .aboutus .card_header h3{
   color: #FFF;
   font-family: Manrope;
   /* font-size: 36px; */
-  font-size: 28px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 700;
   /* line-height: 122.189%;  */
@@ -248,7 +256,8 @@ button{
   color: #FFF;
   font-family: Manrope;
   /* font-size: 28px; */
-  font-size: 22px;
+  max-width: 335px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -256,7 +265,7 @@ button{
 .aboutus .images_part{
   display: flex;
   width: 100%;
-  height: 556px;
+  height: 487px;
   position: relative;
 }
 .aboutus .img_card:nth-child(1){
@@ -321,26 +330,42 @@ button{
 .dating{
   /* height: 1028px; */
   position: relative;
-  background-color: #EB5C68;
-  margin-top: 57px;
+  /* background-color: #EB5C68; */
+  /* margin-top: 57px; */
+  margin-top: 35px;
   /* padding: 113px; */
   padding: 80px;
+  z-index: 0;
 }
-.dating_right{
-  width: 965px;
+.dating::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
   height: 100%;
+  background-color: #EB5C68;
+  z-index: -1;
+}
+.dating::after{
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
+  width: 50%;
+  height: 100%;
   background-color: #DC4450;
-  /* padding-top: 113px; */
-  padding-top: 80px;
+  z-index: -1;
+}
+.dating_main{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 .dating .dating_left{
-  max-width: 595px;
+  max-width: 442px;
+  display: flex;
+  flex-direction: column;
 }
 .dating .section_title{
   /* margin-bottom: 92px; */
@@ -349,20 +374,22 @@ button{
 .dating .steps{
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  /* gap: 34px; */
+  gap: 25px;
   /* margin-bottom: 168px; */
-  margin-bottom: 150px;
+  margin-bottom: 124px;
 }
 .dating .step{
   display: flex;
   align-items: flex-start;
-  gap: 27px;
+  /* gap: 27px; */
+  gap: 20px;
 }
 .dating .step_counter{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
   /* font-size: 32px; */
-  font-size: 28px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   /* line-height: 122.189%;  */
@@ -373,7 +400,7 @@ button{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
   /* font-size: 36px; */
-  font-size: 32px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 400;
   /* line-height: 122.189%; */
@@ -389,34 +416,44 @@ button{
 .dating .text{
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: 122.858%; /* 34.4px */
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 22px;
 }
 .dating .create_profile{
   display: inline-block;
-  border-radius: 31.5px;
+  /* border-radius: 31.5px; */
+  border-radius: 24px;
   background: #FFF;
   /* padding: 32px 54px; */
-  padding: 24px 48px;
+  padding: 24px 40px;
   color: #000;
   font-family: Manrope;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: 21px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
+.dating .dating_right{
+  max-width: 410px;
+}
+.dating_right img{
+  max-width: 410px;
+}
 .dating_right .text{
   /* margin-top: 67px; */
-  margin-top: 50px;
-  max-width: 516px;
+  max-width: 383px;
+  margin-top: 39px;
   color: #FFF;
   text-align: center;
   font-family: Manrope;
   /* font-size: 40px; */
-  font-size: 32px;
+  font-size: 29.703px;
   font-style: normal;
   font-weight: 500;
   /* line-height: 122.858%; */
@@ -427,57 +464,62 @@ button{
 /* safety */
 .safety {
   position: relative;
-  padding: 112px 0 261px;
+  /* padding: 112px 0 261px; */
+  padding: 83px 0 194px;
 }
 .safety .little_heart{
+  width: 350px;
   position: absolute;
   top: 46px;
-  left: 192px;
+  left: 370px;
   z-index: 0;
 }
 .safety .double_heart{
+  width: 705px;
   position: absolute;
-  top: 112px;
-  right: 0px;
+  top: 84px;
+  right: -110px;
   z-index: 0;
 }
 .safety .safety_image1{
+  width: 400px;
   position: absolute;
-  top: 195px;
-  left: -109px;
+  top: 145px;
+  left: 167px;
 }
 .safety .safety_image2{
+  width: 251px;
   position: absolute;
-  top: 580px;
-  left: 151px;
+  top: 431px;
+  left: 361px;
 }
 .safety .container{
   display: flex;
   justify-content: end;
 }
 .safety .safety_main{
-  max-width: 742px;
-  margin-right: 343px;
+  max-width: 551px;
+  margin-right: 255px;
   position: relative;
   z-index: 10;
 }
 .safety .section_title{
-  margin-bottom: 57px;
+  margin-bottom: 44px;
 }
 .safety .text{
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 69px;
+  margin-bottom: 52px;
 }
 .safety ul{
-  border-radius: 30px;
+  border-radius: 22.277px;
   background: #111112;
-  width: 620px;
-  padding: 45px;
+  width: 460px;
+  padding: 33px;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -485,13 +527,16 @@ button{
 .safety li{
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.safety li img{
+  width: 39px;
 }
 
 
@@ -500,58 +545,60 @@ button{
   width: auto;
 }
 .stories .section_title{
-  margin-bottom: 46px;
+  margin-bottom: 35px;
 }
 .stories .text{
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 61px;
+  margin-bottom: 46px;
 }
 .stories .slide_box{
   display: flex;
-  gap: 24px;
+  align-items: center;
+  gap: 18px;
 }
 .stories .slide_card{
-  width: 620px;
-  border-radius: 30px;
+  width: 460px;
+  border-radius: 22.277px;
   background: #FFF;
-  padding: 56px 39px 36px;
+  padding: 38px 28px 26px;
   position: relative;
 }
 .stories .slide_card .icon{
+  width: 88px;
   position: absolute;
-  top: 38px;
-  right: 30px;
+  top: 28px;
+  right: 22px;
   z-index: 0;
 }
 .stories .slide_card p{
   color: #08080A;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 74px;
+  margin-bottom: 56px;
 }
 .stories .slide_card h3{
   color: #1A1F71;
   font-family: "Tenor Sans";
-  font-size: 36px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 400;
   line-height: 122.189%; /* 43.988px */
   text-transform: uppercase;
 }
 .stories .progressbar_container {
-  margin: 86px auto 98px;
-  width: 227px; 
-  height: 13px; 
+  margin: 64px auto 72px;
+  width: 169px; 
+  height: 10px; 
   background: rgba(255, 255, 255, 0.11); 
-  border-radius: 6.5px;
+  border-radius: 5px;
   overflow: hidden;
   position: relative;
 }
@@ -565,23 +612,18 @@ button{
 
 /* questions */
 .questions {
-  /* padding: 50px 20px; */
-  padding: 40px 20px;
+  margin-bottom: 73px;
   background: #08080A;
 }
 .questions .accordion{
-  border-radius: 30px;
+  border-radius: 22.277px;
   background: #111112;
   width: 100%;
-  padding: 80px 60px 102px;
+  padding: 60px 45px 76px;
 }
 .questions .accordion_header {
   text-align: center;
-  margin-bottom: 20px;
-}
-.questions .section_title {
-  /* margin-bottom: 72px; */
-  margin-bottom: 60px;
+  margin-bottom: 54px;
 }
 .questions .accordion_body {
   display: flex;
@@ -589,9 +631,9 @@ button{
   gap: 15px;
 }
 .questions .accordion_item {
-  border-radius: 30px;
+  border-radius: 22.277px;
   background-color: #252525;
-  padding: 28px 27px 42px;
+  padding: 20px 24px;
   cursor: pointer;
   transition: background-color 0.3s;
   position: relative;
@@ -606,37 +648,36 @@ button{
   color: #FFF;
   font-family: Manrope;
   /* font-size: 40px; */
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 .questions .accordion_icon {
-  width: 74px;
-  height: 74px;
+  width: 55px;
+  height: 55px;
   transition: transform 0.3s ease;
 }
 .questions .accordion_item.active .accordion_icon {
   content: url('../img/accordion_hide.svg');
 }
 .questions .accordion_content {
-  max-width: 1062px;
+  max-width: 789px;
   height: 0;
   overflow: hidden;
   transition: height 0.3s ease, padding 0.3s ease;
   color: #FFF;
   font-family: Manrope;
   /* font-size: 28px; */
-  font-size: 24px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 0 10px;
   opacity: 0; 
 }
 .questions .accordion_item.active .accordion_content {
   height: auto;
-  padding: 50px 10px 0;
+  padding: 36px 0 8px;
   opacity: 1;
 }
 
@@ -646,127 +687,135 @@ button{
   background-color: #fff;
   position: relative;
 }
+.find_love .container{
+  position: relative;
+
+}
 .find_love .images{
-  height: 1260px;
+  width: 100%;
+  height: 917px;
+  position: relative;
 }
 .find_love .images .image1{
   position: absolute;
-  top: 104px;
-  left: -9%;
+  top: 43px;
+  left: -250px;
   z-index: 1;
 }
 .find_love .images .image2{
   position: absolute;
-  top: 491px;
-  left: 6%;
+  top: 265px;
+  left: 20px;
   z-index: 2;
 }
 .find_love .images .image3{
   position: absolute;
-  top: 205px;
-  left: 18.4%;
+  top: 152px;
+  left: 190px;
   z-index: 3;
 }
 .find_love .images .image4{
   position: absolute;
-  top: 344px;
-  left: 33%;
+  top: 255px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 5;
 }
 .find_love .images .image5{
   position: absolute;
-  top: 146px;
-  right: 33%;
+  top: 108px;
+  right: 385px;
   z-index: 4;
 }
 .find_love .images .image6{
   position: absolute;
-  top: 688px;
-  right: 23%;
+  top: 511px;
+  right: 241px;
   z-index: 7;
 }
 .find_love .images .image7{
   position: absolute;
-  top: 164px;
-  right: 3.3%;
+  top: 122px;
+  right: -41px;
   z-index: 6;
 }
 .find_love .images .image8{
   position: absolute;
-  top: 541px;
-  right: -5.5%;
+  top: 391px;
+  right: -240px;
   z-index: 8;
 }
 .find_love .images .white_heart{
   position: absolute;
-  top: 583px;
+  top: 433px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9;
 }
 .find_love .love_heart{
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
 }
 .find_love .find_love_content{
-  max-width: 875px;
+  padding-top: 69px;
+  max-width: 650px;
   display: flex;
   flex-direction: column;
 }
 .find_love .find_love_content h3{
   color: #111112;
   font-family: "Tenor Sans";
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   /* line-height: 122.189%;   */
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .find_love .find_love_content p{
   color: #111112;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 66px;
+  margin-bottom: 49px;
 }
 .find_love .find_love_content .find_button{
   display: inline-block;
-  border-radius: 31.5px;
+  border-radius: 23.391px;
   background: #EB5C68;
   /* padding: 32px 54px; */
-  padding: 24px 48px;
+  padding: 24px 40px;
   color: #FFF;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-bottom: 91px;
+  margin-bottom: 67px;
 }
 
 /* footer */
 .footer{
-  padding-top: 119px;
+  padding-top: 88px;
 }
 .footer_box{
   border-radius: 30px 30px 0px 0px;
   background: #111112;
-  padding: 42px 54px 54px;
+  padding: 31px 40px 34px;
 }
 .footer_header{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 44px;
 }
 .footer_header .socials{
   display: flex;
   align-items: center;
-  gap: 47px;
+  gap: 35px;
 }
 .footer_body {
   width: 100%;
@@ -777,12 +826,12 @@ button{
 .footer_menus{
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 18px;
 }
 .footer_menus li a{
   color: #FFF;
   font-family: Manrope;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -791,7 +840,7 @@ button{
   color: #555;
   text-align: right;
   font-family: Manrope;
-  font-size: 28px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

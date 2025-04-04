@@ -15,11 +15,11 @@ $(document).ready(function () {
     })
 
     var storiesSwiper = new Swiper(".storiesSwiper", {
-        spaceBetween: 24,
+        spaceBetween: 18,
         slidesPerView: "auto",
         on: {
             progress: function (swiper, progress) {
-                let progressWidth = 227 * progress;
+                let progressWidth = 169 * progress;
                 $(".progressbar_fill").css("width", `${progressWidth}px`);
             }
         }
