@@ -9,13 +9,14 @@ body{
 }
 .wrapper{
   overflow: hidden;
+  position: relative;
 }
 .bg_cirlces{
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  pointer-events: none; /* Element ustiga bosish ta'sir qilmasligi uchun */
+  pointer-events: none; 
 }
 .container{
   max-width: 1350px;
@@ -35,7 +36,6 @@ button{
 .section_title{
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 68px; */
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -49,8 +49,7 @@ button{
   background-color: #111112;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  /* padding: 52px 60px; */
-  padding: 40px 60px;
+  padding: 33px 45px 32px 35px;
   display: flex;
   justify-content: space-between;
 }
@@ -62,14 +61,13 @@ button{
 }
 .header_menus{
   display: flex;
-  gap: 80px;
+  gap: 58px;
   align-items: center;
 }
 .header_menus li a{
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 28px; */
-  font-size: 24px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -86,14 +84,11 @@ button{
   align-items: center;
   justify-content: end;
   position: relative;
-  /* margin-top: 133px; */
   width: 100%;
   margin-top: 104px;
 }
 .hero_left{
   position: absolute;
-  /* top: -177px;
-  left: -72px; */
   top: -140px;
   left: -50px;
 }
@@ -112,47 +107,38 @@ button{
   z-index: 0;
 }
 .hero_right{
-  /* width: 1000px; */
   width: 732px;
 }
 .hero_right .title{
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 86.816px; */
   font-size: 64px;
   font-style: normal;
   font-weight: 600;
-  /* line-height: 84.5px;  */
-  /* letter-spacing: 1.736px; */
-  /* margin-bottom: 48px; */
   margin-bottom: 36px;
   margin-left: 9px;
 }
 .hero_right .title .red{
   color: #EB5C68;
   font-family: "Tenor Sans";
-  /* font-size: 98.307px; */
   font-size: 73px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* letter-spacing: -5.898px; */
   margin-right: 20px;
 }
 .hero_right .title .blue{
   color: #7A00F1;
   font-family: "Tenor Sans";
-  /* font-size: 98.307px; */
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* letter-spacing: -5.898px; */
   margin-right: 16px;
 }
-.hero_right .title .move_left{
-  /* margin-left: -64px; */
-}
+/* .hero_right .title .move_left{
+  margin-left: -64px;
+} */
 .hero_right .text{
   color: #FFF;
   font-family: Manrope;
@@ -160,7 +146,6 @@ button{
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  /* margin-bottom: 130px; */
   margin-bottom: 97px;
 }
 .hero_bottom{
@@ -170,14 +155,11 @@ button{
   gap: 39px;
 }
 .hero_bottom .start_contact{
-  /* border-radius: 31.5px; */
   border-radius: 23.391px;
   background: #7A00F1;
-  /* padding: 32px 54px; */
   padding: 23.762px 40.099px;
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 28px; */
   font-size: 20.792px;
   font-style: normal;
   font-weight: 800;
@@ -189,59 +171,49 @@ button{
   font-size: 23.762px;
   font-style: normal;
   font-weight: 300;
-  line-height: 36px; /* 112.5% */
+  line-height: 36px; 
   letter-spacing: 0.64px;
 }
 
 /* About us */
 .aboutus{
-  /* margin-top: 187px; */
   margin-top: 250px;
 }
 .aboutus .section_title{
-  /* margin-bottom: 85px; */
   margin-bottom: 63px;
 }
 .aboutus .cards_wrapper{
   display: flex;
   flex-direction: column;
-  /* gap: 43px; */
   gap: 32px;
 }
 .aboutus .cards{
   display: flex;
   align-items: stretch;
-  /* gap: 43px; */
   gap: 32px;
 }
 .aboutus .cards:nth-child(n+2){
-  /* margin-left: 425px; */
   margin-left: auto;
 }
 .aboutus .card{
-  /* width: 553px; */
   width: 410px;
   border-radius: 30px;
   border-radius: 22px;
   background: #111112;
-  /* padding: 40px; */
   padding: 30px;
 }
 .aboutus .card_header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 50px; */
   margin-bottom: 37px;
 }
 .aboutus .card_header h3{
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 36px; */
   font-size: 27px;
   font-style: normal;
   font-weight: 700;
-  /* line-height: 122.189%;  */
 }
 .aboutus .card_header .icon_box{
   position: relative;
@@ -255,7 +227,6 @@ button{
 .aboutus .card_body p {
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 28px; */
   max-width: 335px;
   font-size: 21px;
   font-style: normal;
