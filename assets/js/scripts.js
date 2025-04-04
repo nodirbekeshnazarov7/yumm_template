@@ -17,10 +17,16 @@ $(document).ready(function () {
     var storiesSwiper = new Swiper(".storiesSwiper", {
         spaceBetween: 18,
         slidesPerView: "auto",
+        centeredSlides: true,
         on: {
             progress: function (swiper, progress) {
                 let progressWidth = 169 * progress;
                 $(".progressbar_fill").css("width", `${progressWidth}px`);
+            }
+        },
+        breckponts:{
+            576: {
+                centeredSlides: false
             }
         }
     });

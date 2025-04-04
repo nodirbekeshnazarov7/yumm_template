@@ -52,6 +52,7 @@ button{
   padding: 33px 45px 32px 35px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .hamburger_menu_wrapper{
   display: none;
@@ -151,7 +152,6 @@ button{
 .hero_bottom{
   display: flex;
   align-items: center;
-  gap: 53px;
   gap: 39px;
 }
 .hero_bottom .start_contact{
@@ -299,12 +299,8 @@ button{
 
 /* dating */
 .dating{
-  /* height: 1028px; */
   position: relative;
-  /* background-color: #EB5C68; */
-  /* margin-top: 57px; */
   margin-top: 35px;
-  /* padding: 113px; */
   padding: 80px;
   z-index: 0;
 }
@@ -339,42 +335,34 @@ button{
   flex-direction: column;
 }
 .dating .section_title{
-  /* margin-bottom: 92px; */
   margin-bottom: 70px;
 }
 .dating .steps{
   display: flex;
   flex-direction: column;
-  /* gap: 34px; */
   gap: 25px;
-  /* margin-bottom: 168px; */
   margin-bottom: 124px;
 }
 .dating .step{
   display: flex;
   align-items: flex-start;
-  /* gap: 27px; */
   gap: 20px;
 }
 .dating .step_counter{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
-  /* font-size: 32px; */
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 122.189%;  */
   text-transform: uppercase;
   transition: all .3s ease;
 }
 .dating .step_text{
   color: rgba(255, 255, 255, 0.35);
   font-family: "Tenor Sans";
-  /* font-size: 36px; */
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 122.189%; */
   text-transform: uppercase;
   transition: all .3s ease;
 }
@@ -387,24 +375,19 @@ button{
 .dating .text{
   color: #FFF;
   font-family: Manrope;
-  /* font-size: 28px; */
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
-  line-height: 122.858%; /* 34.4px */
-  /* margin-bottom: 30px; */
+  line-height: 122.858%; 
   margin-bottom: 22px;
 }
 .dating .create_profile{
   display: inline-block;
-  /* border-radius: 31.5px; */
   border-radius: 24px;
   background: #FFF;
-  /* padding: 32px 54px; */
   padding: 24px 40px;
   color: #000;
   font-family: Manrope;
-  /* font-size: 28px; */
   font-size: 21px;
   font-style: normal;
   font-weight: 800;
@@ -417,18 +400,14 @@ button{
   max-width: 410px;
 }
 .dating_right .text{
-  /* margin-top: 67px; */
   max-width: 383px;
   margin-top: 39px;
   color: #FFF;
   text-align: center;
   font-family: Manrope;
-  /* font-size: 40px; */
   font-size: 29.703px;
   font-style: normal;
   font-weight: 500;
-  /* line-height: 122.858%; */
- 
 }
 
 
