@@ -412,9 +412,17 @@
     /* hero */
     .hero_main{
         margin-top: 50px;
+        flex-direction: column-reverse;
     }
     .hero_left{
-        display: none;
+        position: static;
+        top: -58px;
+        left: unset;
+        right: -29px;
+    }
+    .hero_left img {
+        width: 100%;
+        transform: rotate(5deg);
     }
     .hero_right .title{
         width: 100%;
