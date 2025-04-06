@@ -77,7 +77,16 @@ button{
   border-radius: 31.5px;
   background: #303030;
   padding: 10px 50px 15px;
+  transition: all 0.5s ease;
 }
+
+.header_menus li.last_li:hover {
+  background: #1d1d1d;
+}
+.header_menus li.last_li a:hover {
+  color: #b5b1b1;
+}
+
 
 /* hero */
 .hero_main{
@@ -164,7 +173,13 @@ button{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  transition: all 0.5s ease;
 }
+
+.start_contact:hover {
+  background: #38016f;
+}
+
 .hero_bottom .info{
   color: rgba(255, 255, 255, 0.40);
   font-family: Manrope;
@@ -392,7 +407,14 @@ button{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  transition: all 0.9s ease;
 }
+
+.dating .create_profile:hover {
+  background: #858383;
+  color: #FFF;
+}
+
 .dating .dating_right{
   max-width: 410px;
 }
@@ -745,6 +767,11 @@ button{
   font-weight: 800;
   line-height: normal;
   margin-bottom: 67px;
+  transition: all 0.5s ease;
+}
+
+.find_love .find_love_content .find_button:hover {
+  background: #a0202b;
 }
 
 /* footer */
